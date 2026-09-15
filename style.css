@@ -1,1 +1,117 @@
+:root {
+    --bg: #1f2b1f;
+    --card: #2e3a2c;
+    --text: #f4e8c8;
+    --accent: #d4a64a;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: var(--bg);
+    color: var(--text);
+    font-family: 'Quicksand', sans-serif;
+    line-height: 1.6;
+}
+
+.hero {
+    text-align: center;
+    padding: 80px 20px 60px;
+}
+
+.hero h1 {
+    font-family: 'Press Start 2P', cursive;
+    font-size: 2rem;
+    line-height: 1.6;
+    color: var(--accent);
+}
+
+.pigeon {
+    font-size: 5rem;
+    margin: 25px 0;
+}
+
+.tagline {
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+}
+
+.intro {
+    max-width: 600px;
+    margin: 0 auto 30px;
+}
+
+.button {
+    display: inline-block;
+    background: var(--accent);
+    color: #222;
+    text-decoration: none;
+    padding: 12px 24px;
+    border-radius: 8px;
+    font-weight: bold;
+    transition: 0.2s;
+}
+
+.button:hover {
+    transform: translateY(-2px);
+}
+
+main {
+    max-width: 900px;
+    margin: auto;
+    padding: 20px;
+}
+
+.card {
+    background: var(--card);
+    padding: 30px;
+    border-radius: 12px;
+    margin-bottom: 25px;
+}
+
+.card h2 {
+    color: var(--accent);
+    margin-bottom: 15px;
+}
+
+.card ul {
+    padding-left: 18px;
+}
+
+.card li {
+    margin-bottom: 10px;
+}
+
+.placeholder {
+    border: 2px dashed var(--accent);
+    padding: 40px;
+    text-align: center;
+    border-radius: 8px;
+}
+
+footer {
+    text-align: center;
+    padding: 40px 20px;
+    opacity: 0.8;
+}
+
+@media (max-width: 768px) {
+
+    .hero h1 {
+        font-size: 1.2rem;
+    }
+
+    .tagline {
+        font-size: 1.1rem;
+    }
+
+    .pigeon {
+        font-size: 4rem;
+    }
+
+}
 
